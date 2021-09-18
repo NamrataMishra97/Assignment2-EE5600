@@ -21,7 +21,7 @@ B = c*e2/(n@e2)
 x_AB = line_gen(A,B)
 
 #Plotting all lines
-plt.plot(x_AB[0,:],x_AB[1,:],label='Straight line')
+plt.plot(x_AB[0,:],x_AB[1,:],label='(-1 $\sqrt{3}$)x=$-2\sqrt{3}$')
 plt.plot(A[0], A[1], 'o')
 plt.text(A[0] * (1 - 0.001), A[1] * (1) , r'$(2\sqrt{3},0)$')
 plt.plot(B[0], B[1], 'o')
